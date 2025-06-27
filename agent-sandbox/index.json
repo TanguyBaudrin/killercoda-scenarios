@@ -3,7 +3,8 @@
   "description": "Select the Theia IDE as default interface",
   "details": {
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "background": "intro/background.sh"
     },
     "steps": [
       {
