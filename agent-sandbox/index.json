@@ -3,15 +3,16 @@
   "description": "Select the Theia IDE as default interface",
   "details": {
     "intro": {
-      "text": "intro.md",
+      "text": "intro/intro.md",
       "background": "intro/background.sh"
     },
     "steps": [
       {
-        "text": "step1.md"
+        "text": "step1/step1.md",
+        "verify": "step1/verify.sh"
       },
       {
-        "text": "step2.md"
+        "text": "step2/step2.md"
       }
     ]
   },
