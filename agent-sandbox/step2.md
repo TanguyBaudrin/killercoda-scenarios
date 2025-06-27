@@ -1,3 +1,18 @@
+# Create you're first agent
+
+You will need to create the following project structure:
+
+multi_tool_agent/
+    __init__.py
+    agent.py
+    .env
+
+1. First create the directory `mkdir multi_tool_agent`
+2. Create the `__init__.py` file with the dependency to ADK:
+    
+    `from . import agent`
+3. Create the `agent.py` file with the following content:
+````
 import datetime
 from zoneinfo import ZoneInfo
 from google.adk.agents import Agent
@@ -65,3 +80,4 @@ root_agent = Agent(
     ),
     tools=[get_weather, get_current_time],
 )
+````
